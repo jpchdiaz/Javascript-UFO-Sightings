@@ -1,0 +1,6 @@
+forEach -- will iterate through elements of an array and will execute any function and output to console
+
+map -- will iterate through elements of an array and WILL RETURN the results when splitting a JS Object into individual lists
+
+forEach and map without the keyword 'function' and replaced with =>
+  in case of map we can eliminate return and have the logic on a single line
