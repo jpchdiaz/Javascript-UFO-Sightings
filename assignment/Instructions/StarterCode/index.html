@@ -32,6 +32,7 @@
             <div class="panel panel-default">
               <div class="panel-heading">Filter Search</div>
               <div class="panel-body">
+                <!-- date filter -->
                 <form>
                   <div class="form-group">
                     <ul class="list-group" id="filters">
@@ -41,7 +42,53 @@
                       </li>
                     </ul>
                   </div>
+                </form>
+
+                <!-- city filter -->
+                <form>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                      <li class="filter list-group-item">
+                        <label for="date">Enter a City</label>
+                        <input class="form-control" id="cityfilter" type="text" placeholder="Benton">
+                      </li>
+                    </ul>
+                  </div>
+                </form>
+                <!-- state filter -->
+                <form>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                      <li class="filter list-group-item">
+                        <label for="date">Enter a State</label>
+                        <input class="form-control" id="statefilter" type="text" placeholder="NJ">
+                      </li>
+                    </ul>
+                  </div>
+                </form>
+                <!-- country filter -->
+                <form>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                      <li class="filter list-group-item">
+                        <label for="date">Enter a Country</label>
+                        <input class="form-control" id="countryfilter" type="text" placeholder="US">
+                      </li>
+                    </ul>
+                  </div>
+                </form>
+                <!-- shape filter -->
+                <form>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                      <li class="filter list-group-item">
+                        <label for="date">Enter a Date</label>
+                        <input class="form-control" id="shapefilter" type="text" placeholder="circle">
+                      </li>
+                    </ul>
+                  </div>
                   <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
+                  <button id="reset-btn" type="submit" class="btn btn-default">Reset Table</button>
                 </form>
               </div>
             </div>
